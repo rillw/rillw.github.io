@@ -1,2 +1,2 @@
 # rillw.github.io
-Published writi *ng.
+Publish writing.
