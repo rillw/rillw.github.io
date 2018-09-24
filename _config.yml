@@ -1,0 +1,51 @@
+#Site settings
+name: Rill
+title: Thoughts of a Writer.
+tagline: .
+baseurl: ''
+url: "https://rillw.github.io/"
+
+# Build settings
+markdown: kramdown
+markdown_ext: "kd,kdwn,kdown,kramdown,md,mdwn,mdown,mk,markdown,kk"
+kramdown:
+#    auto_ids: false
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title/
+
+# plugins
+plugins: [jekyll-paginate]
+
+# includes
+include: ["_drafts"]
+include: ["_pages"]
+
+#collections:
+  #dogwriting:
+    #output: true
+    #permalink: /:collection/:path/ 
+  #spiritualwriting:
+    #output: true
+    #permalink: /:collection/:path/
+
+# defaults
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: page
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Previous Thoughts on Star Runner
-tags: [Writing, Star Runner]
+tags: [Writing, Star Runner Universe]
 ---
 
 I found this earlier thought piece on Star Runner from February 16, 2016. Apparently, I planned to finish Star Runner last year, too.

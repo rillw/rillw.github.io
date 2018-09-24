@@ -1,0 +1,32 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-09-24 08:23 CDT
+Nmap scan report for 192.168.0.1
+Host is up (0.00062s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.0.100
+Host is up (0.00030s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.0.103
+Host is up (0.057s latency).
+
+PORT   STATE  SERVICE
+22/tcp closed ssh
+
+Nmap scan report for 192.168.0.104
+Host is up (0.0065s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.0.105
+Host is up (0.028s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 3.01 seconds
